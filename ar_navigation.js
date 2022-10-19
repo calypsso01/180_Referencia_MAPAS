@@ -15,7 +15,7 @@ function get_coordinates() {
         coordinates.destination_lat = destination.split(";")[0]
         coordinates.destination_lon = destination.split(";")[1]
     } else {
-        alert("Coordinates not selected!")
+        alert("¡Coordenadas no seleccionadas!")
         window.history.back();
     }
 }
